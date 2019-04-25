@@ -1,10 +1,20 @@
 #me
 {
-    border: 22px;
+    border: 1px solid black;
     left: 400px;
 }
 
-.test
+body
 {
-    color: red;
+
+}
+
+.name
+{
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    float: left;
+    margin-left: 300px;
 }
