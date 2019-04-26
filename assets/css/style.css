@@ -1,20 +1,56 @@
-#me
-{
-    border: 1px solid black;
-    left: 400px;
-}
+.clearfix::after 
+  {
+    content: " ";
+    display: block;
+    clear: both;
+  }
 
 body
 {
-
+    margin: auto;
+    width: 960px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.name
+  * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  #name
+  {
+      width: 275px;
+      height: 60px;
+      background-color: #4aaaa5;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: white;
+      font-size: 30px;
+  }
+
+#me
 {
-    background-color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 30px;
     float: left;
-    margin-left: 300px;
+    border: 1px solid black;
+    left: 400px;
+    margin-top: 30px;
+}
+
+
+
+.container
+{
+    min-height: 100%;
+    max-height:100%;
+    width: 960px; 
+    margin:0 auto;
+}
+
+.about 
+{
+float: left;
+}
+
+.menu
+{
+    float: left;
 }
